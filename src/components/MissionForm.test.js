@@ -15,7 +15,7 @@ describe('MissionForm Tests', ()=>{
         
         render(<MissionForm isFetchingData={true}/>)
         screen.getByText(/we are fetching data/i);
-        expect(screen.queryByText(/get data/i)).toBeNull();
+        expect(screen.queryByText(/get gi data/i)).toBeNull();
 
     })
 
